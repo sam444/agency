@@ -1,0 +1,90 @@
+.main{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.policyInfo{
+    position: fixed;
+    z-index: 100;
+    background-color: #ffffff;
+    padding-top: 15px;
+}
+
+.quoteInfo{
+    margin-top: 75px;
+    padding-left: 0;
+}
+
+#premium{
+    font-size: large;
+    color: #ff8200;
+    display: block;
+    margin-top: -20px;
+}
+#summeryPolicyNo{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.summary{
+    position: fixed;
+    right: 0;
+    top: 150px;
+    max-width: 18.3%;
+}
+
+#collapse_summary0{
+    margin-top: -10px;
+}
+
+
+
+.issue{
+    background-image: url('../images/success.png');
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+    padding-left: 40%;
+    padding-top: 140px;
+}
+
+#summaryPremium,#summaryCommission{
+  font-size: 20px;
+  color: #449d44;
+}
+
+
+.accordion > .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+.panel-default > .panel-heading{
+    color: #666;
+    background: #F0EEE3
+}
+
+
+
+.card  .card{
+    border:none;
+}
+
+.card {
+    width: 100%;
+}
+
+.dttable > tbody > tr > td, .dttable > thead > tr > th {
+    padding: 5px 5px;
+}
+
+.pagefooter {
+    border-top: none;
+}
+
+
+.dttable select.form-control:not([size]):not([multiple]) {
+    height: 38px;
+}

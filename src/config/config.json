@@ -1,0 +1,35 @@
+{
+  "showLog":true,
+  "login":true,
+  "authorize_url" :"/oauth2.0/authorize?client_id=key&response_type=code",
+  "accessToken_url" : "/oauth2.0/accessToken",
+  "key" : "Authorization",
+  "cas_url": "http://172.25.15.196/cas-server",
+  "callback_url": "http://localhost:8000/",
+  "tickets_url": "http://172.25.15.196/cas-server/ebao/v1/json/tickets",
+  "tickets":"%7Du%26s%24e*r%5Bn%5Da%24m%5Be%21A%7BD%20*MI%5D%20%24N%21%7Bp%7Da%5Bs%5D%5Bs%5Dw%24o%5Dr%20d%5B%21e%7DB%7Ba*o%241%7D2%203%7D4%7B",
+  "need_port":true,
+  "replace_url":false,
+  "PA_SERVICE1":"http://172.30.1.246:8090/restlet/v1",
+  "PA_SERVICE":"http://172.25.15.196/restlet/v1",
+  "STATIC_SERVER":"http://rainbow.ebaotech.com/static",
+  "PAY_SERVICE":"http://106.15.0.142:2488/payment/precreate",
+  "QUERY_PAY_SERVICE":"http://106.15.0.142:2488/payment/query",
+  "FILE_SERVICE":"http://rainbow.ebaotech.com/static/doc/",
+  "PAY_CONFIG":{
+        "subject":"美容场所险付扫码支付",
+        "body":"购买该保险保费共计",
+        "totalAmount":"0",
+        "discountableAmount":"0",
+        "undiscountableAmount":"0",
+        "storeId":"test_store_id",
+        "operatorId":"test_operator_id",
+        "alipay_accountId":"ebaotest.alipay",
+        "wechat_accountId":"ebaotest.wechatpay",
+        "goodList": [
+          {"goodsId":"", "goodsName":"", "price":"", "quantity":""}
+        ],
+        "flashTime":"3000"
+   }
+}
+
